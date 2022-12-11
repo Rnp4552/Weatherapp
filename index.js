@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 var requests = require('requests');
 
-const homefile  = fs.readFileSync("home.html",'utf-8')
+const homefile  = fs.readFileSync("index.html",'utf-8')
 
 const replaceVal= (tempval, orginval)=>{
     let temperature  = tempval.replace("{%tempval%}",orginval.main.temp);
