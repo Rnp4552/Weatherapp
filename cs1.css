@@ -1,0 +1,11 @@
+.fa-solid fa-street-view{
+    animation: rotates 3s linear infinite alternate;
+}
+@keyframes rotates {
+    from {
+        transform: translateX(-0.5rem);
+    }
+    to{
+        transform: translateX(0.5rem);
+    }
+}

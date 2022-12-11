@@ -1,0 +1,14 @@
+{
+  "name": "weatherwebapp",
+  "version": "1.0.0",
+  "description": "creating weather webapp using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ridham Parmar",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}
